@@ -1,0 +1,29 @@
+package br.edu.fatecpg.veiculos.view;
+
+import br.edu.fatecpg.veiculos.model.Caminhao;
+import br.edu.fatecpg.veiculos.model.Carro;
+import br.edu.fatecpg.veiculos.model.Moto;
+import br.edu.fatecpg.veiculos.model.Veiculo;
+
+public class Main {
+
+	public static void main(String[] args) {
+						     //adicionar os argumentos(registros) 
+	Carro carro = new Carro("Renault", "Logan", 2015, "Prata", 5, "Sedan");
+	Moto moto = new Moto("BIZ", "nãosei", 2015, "Verde", "Joãozinho", 50);
+	Caminhao caminhao = new Caminhao("naosei", "nãosei", 2015, "Azul", 500, "Alimento");
+
+	
+	carro.ligarAr();
+	carro.acelerar();
+	carro.ligar();
+	carro.desligar();
+	moto.empinar();
+	moto.buzinar();
+	caminhao.buzinarCaminhao();
+	caminhao.pegarCarga();
+	
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package br.edu.fatecpg.veiculos.view;
+
+import br.edu.fatecpg.veiculos.model.Veiculo;
+
+public class Main {
+
+	public static void main(String[] args) {
+						//adicionar os argumentos(registros) 
+	Veiculo carro = new Veiculo("Renault", "Logan", 2015, "Prata");
+	
+	carro.ligar();
+	carro.desligar();
+		
+	}
+
+}

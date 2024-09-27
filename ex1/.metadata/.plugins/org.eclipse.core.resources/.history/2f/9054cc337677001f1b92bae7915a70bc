@@ -1,0 +1,17 @@
+package br.edu.fatecpg.veiculos.model;
+
+public class Moto extends Veiculo{
+	public String donoMoto;
+	public int tamanhoMoto;
+	
+	public Moto(String mod, String mrc, int ano, String cor, String Dmoto, int tm)
+	{ 
+	super(mod, mrc, ano, cor);
+	this.donoMoto = Dmoto;
+	this.tamanhoMoto = tm;
+		
+		
+	}
+	
+
+}

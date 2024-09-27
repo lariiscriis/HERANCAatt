@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+/home/user/Área de Trabalho/ex_HERANCA/.metadata/.plugins/org.eclipse.jdt.core
+4211811119.index
+1865797976.index
+2054852854.index
